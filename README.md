@@ -1,1 +1,1 @@
-# arduino-temp-humidity-light-sensor
+# Arduino temperature, humidity and light sensor
