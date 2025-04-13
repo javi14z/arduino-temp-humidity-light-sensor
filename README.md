@@ -1,19 +1,19 @@
 # Arduino: Sensor de Temperatura, Humedad y Luz
 
-Actividad 1 de la asignatura **Equipos e Instrumentación** del Máster de Ingeniería de Telecomunicación de la **UNIR**.  
-Este proyecto consiste en una estación de monitoreo ambiental simple basada en una placa **Arduino UNO R3 Plus (Keystudio)**.  
+Actividad 1 de la asignatura Equipos e Instrumentación del Máster Universitario en Ingeniería de Telecomunicación de la UNIR.
+Este proyecto consiste en una estación de monitoreo ambiental simple basada en una placa keyestudio Plus.  
 Utiliza una pantalla LCD con interfaz I2C para mostrar la **temperatura**, **humedad** y el **nivel de luz ambiental**, alternando entre vistas mediante un botón físico.
 
 ---
 
 ## 🔧 Componentes
 
-- Arduino UNO R3 Plus (Keystudio)
-- Sensor DHT22 (temperatura y humedad)
-- Fotorresistor (LDR / photoresistor)
+- Arduino keyestudio Plus
+- Sensor DHT11 (temperatura y humedad)
+- Fotorresistor (LDR)
 - Resistencia de 10kΩ (divisor de tensión)
 - Pantalla LCD 16x2 con interfaz I2C
-- Pulsador (botón)
+- Botón
 - Protoboard y cables de conexión
 
 ---
@@ -24,7 +24,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la **temperatura**, **hum
 
 | Componente | Pin Arduino |
 |------------|-------------|
-| DHT22      | D7          |
+| DHT11      | D7          |
 | LDR        | A3 (en divisor de tensión con resistencia de 10kΩ a GND) |
 | Botón      | D4 (con `INPUT_PULLUP`) |
 | LCD I2C    | SDA: A4, SCL: A5 |
@@ -35,7 +35,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la **temperatura**, **hum
 
 A continuación, se muestra el diagrama de conexiones de esta práctica:
 
-![Diagrama de conexiones](img/Diagrama_de_conexiones.png)
+![Diagrama de conexiones](img/diagram.png)
 
 ---
 
@@ -49,13 +49,13 @@ A continuación, se muestra el diagrama de conexiones de esta práctica:
 
 ### Simulación en Wokwi
 
-Haz clic en el siguiente [enlace]() para acceder a la simulación del circuito en la plataforma Wokwi.
+Haz clic en el siguiente [enlace](https://wokwi.com/projects/428151434350539777) para acceder a la simulación del circuito en la plataforma Wokwi.
 
 ---
 
 ### Demostración en vídeo
 
-Puedes ver una demostración del funcionamiento del circuito haciendo clic en este [enlace]().
+Puedes ver una demostración del funcionamiento del circuito físico haciendo clic en este [enlace]().
 
 ---
 
