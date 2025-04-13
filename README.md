@@ -55,11 +55,11 @@ Haz clic en el siguiente [enlace](https://wokwi.com/projects/428151434350539777)
 
 ### Demostración en vídeo
 
-Puedes ver una demostración del funcionamiento del circuito físico haciendo clic en este [enlace]().
+Puedes ver una demostración del funcionamiento del circuito físico haciendo clic en este [enlace](demo_video.mp4).
 
 ---
 
 ## 💾 Código fuente
 
-El código utilizado en esta práctica se encuentra en la carpeta [code](code "Código").  
+El código utilizado en esta práctica se encuentra en la carpeta [code](/code/code.ino).  
 El archivo `.ino` está comentado para facilitar su comprensión.
