@@ -4,7 +4,6 @@ Actividad 1 de la asignatura Equipos e Instrumentación del Máster Universitari
 Este proyecto consiste en una estación de monitoreo ambiental simple basada en una placa keyestudio Plus.  
 Utiliza una pantalla LCD con interfaz I2C para mostrar la **temperatura**, **humedad** y el **nivel de luz ambiental**, alternando entre vistas mediante un botón físico.
 
-![Montaje](img/diagram2.jpeg)
 ---
 
 ## 🔧 Componentes
