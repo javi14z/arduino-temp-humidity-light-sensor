@@ -44,7 +44,7 @@ A continuación, se muestra el diagrama de conexiones de esta práctica:
 
 ## 📋 Funcionamiento
 
-- Al iniciar, se muestra en pantalla la **temperatura y humedad** medidas por el sensor DHT22.
+- Al iniciar, se muestra en pantalla la **temperatura y humedad** medidas por el sensor DHT11.
 - Al pulsar el botón, la pantalla muestra el **nivel de luz ambiental**, basado en la lectura analógica del LDR normalizada a una escala de 0 a 100.
 - Al pulsar el botón nuevamente, la pantalla muestra la **calidad del aire**, basada en la simulación que logramos con el potenciómetro.
 - Al pulsar el botón nuevamente, la pantalla muestra la **velocidad del viento**, basada en la simulación que logramos con el potenciómetro.
