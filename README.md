@@ -42,7 +42,7 @@ A continuación, se muestra el diagrama de conexiones de esta práctica:
 ## 📋 Funcionamiento
 
 - Al iniciar, se muestra en pantalla la **temperatura y humedad** medidas por el sensor DHT22.
-- Al pulsar el botón, la pantalla alterna a la **lectura del nivel de luz** (valor analógico del LDR).
+- Al pulsar el botón, la pantalla muestra el **nivel de luz ambiental**, basado en la lectura analógica del LDR normalizada a una escala de 0 a 100.
 - Cada nueva pulsación cambia entre estas dos pantallas.
 
 ---
