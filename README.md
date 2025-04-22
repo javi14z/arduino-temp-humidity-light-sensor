@@ -51,6 +51,11 @@ A continuación, se muestra el diagrama de conexiones de esta práctica:
 
 Haz clic en el siguiente [enlace](https://wokwi.com/projects/428151434350539777) para acceder a la simulación del circuito en la plataforma Wokwi.
 
+> ⚠️ En la simulación de Wokwi se han utilizado dos potenciómetros para representar los sensores de velocidad del viento y calidad del aire. Debido a la falta de componentes físicos durante el desarrollo, estos sensores no han podido ser implementados en el prototipo real. Los potenciómetros permiten ajustar manualmente los valores de entrada y comprobar el funcionamiento del sistema.
+
+- Potenciómetro 1 (A0): Simula sensor de calidad del aire
+- Potenciómetro 2 (A1): Simula sensor de velocidad del viento
+   
 ---
 
 ### Demostración en vídeo
