@@ -25,7 +25,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad y
 | Componente | Pin Arduino |
 |------------|-------------|
 | DHT11      | D7          |
-| LDR        | A3 (en divisor de tensión con resistencia de 10kΩ a GND) |
+| LDR        | A3 |
 | Botón      | D4 (con `INPUT_PULLUP`) |
 | LCD I2C    | SDA: A4, SCL: A5 |
 
