@@ -33,9 +33,10 @@ void loop() {
 
   //Lógica botón: Si se pulsa el botón, cambiar pantalla
   if (digitalRead(BUTTON_PIN) == LOW) {
-    pantalla = 1 - pantalla;  // alterna entre 0 y 1
+    pantalla = (pantalla + 1) % 2;  // Alterna entre 0→1...
     lcd.clear();
-    delay(500); // anti-rebote simple
+    delay(250); // Anti-rebote
+    while(digitalRead(BUTTON_PIN) == LOW); // Espera a soltar el botón
   }
 
   if (pantalla == 0) {
@@ -58,5 +59,6 @@ void loop() {
     lcd.print(luz_normalizada);
   }
 
-  delay(500); // Actualiza cada medio segundo
+  delay(1000); // Actualiza cada segundo
+  lcd.clear();
 }
