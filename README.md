@@ -1,4 +1,4 @@
-# Arduino: Sensor de Temperatura, Humedad y Luz
+# Arduino: Sensor de Temperatura, Humedad, Luz, calidad del aire y velocidad del viento
 
 Actividad 1 de la asignatura Equipos e Instrumentación del Máster Universitario en Ingeniería de Telecomunicación de la UNIR.
 El proyecto consiste en el desarrollo de una estación de monitoreo ambiental básica utilizando una placa Keyestudio Plus.
