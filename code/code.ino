@@ -23,7 +23,15 @@ void setup() {
 }
 
 void loop() {
-  // Si se pulsa el botón, cambiar pantalla
+    //Leemos temperatura y humedad
+    float t = dht.readTemperature();
+    float h = dht.readHumidity();
+
+    //Leemos nivel de luz y normalizamos
+    int luz_analog = analogRead(LDR_PIN);
+    int luz_normalizada = map(luz_analog, 0,1023,0,100);
+
+  //Lógica botón: Si se pulsa el botón, cambiar pantalla
   if (digitalRead(BUTTON_PIN) == LOW) {
     pantalla = 1 - pantalla;  // alterna entre 0 y 1
     lcd.clear();
@@ -31,9 +39,7 @@ void loop() {
   }
 
   if (pantalla == 0) {
-    float t = dht.readTemperature();
-    float h = dht.readHumidity();
-
+    //Actualizamos la pantalla para temperatura y humedad
     lcd.setCursor(0, 0);
     lcd.print("Temp: ");
     lcd.print(t, 1);
@@ -44,12 +50,12 @@ void loop() {
     lcd.print(h, 1);
     lcd.print(" %");
   } else {
-    int luz = analogRead(LDR_PIN);
+    //Actualizamos la pantalla para el nivel de luz
     lcd.setCursor(0, 0);
     lcd.print("Sensor de Luz");
     lcd.setCursor(0, 1);
     lcd.print("Nivel: ");
-    lcd.print(luz);
+    lcd.print(luz_normalizada);
   }
 
   delay(500); // Actualiza cada medio segundo
