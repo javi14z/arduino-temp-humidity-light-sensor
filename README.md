@@ -2,7 +2,7 @@
 
 Actividad 1 de la asignatura Equipos e Instrumentación del Máster Universitario en Ingeniería de Telecomunicación de la UNIR.
 El proyecto consiste en el desarrollo de una estación de monitoreo ambiental básica utilizando una placa Keyestudio Plus.
-Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, nivel de luz ambiental, velocidad del viento y calidad del aire, permitiendo cambiar la información visualizada mediante un botón físico.
+Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, nivel de luz ambiental, calidad del aire y velocidad del viento, permitiendo cambiar la información visualizada mediante un botón físico.
 
 ---
 
