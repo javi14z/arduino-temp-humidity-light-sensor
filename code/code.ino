@@ -23,13 +23,13 @@ void setup() {
 }
 
 void loop() {
-    //Leemos temperatura y humedad
-    float t = dht.readTemperature();
-    float h = dht.readHumidity();
+  //Leemos temperatura y humedad
+  float t = dht.readTemperature();
+  float h = dht.readHumidity();
 
-    //Leemos nivel de luz y normalizamos
-    int luz_analog = analogRead(LDR_PIN);
-    int luz_normalizada = map(luz_analog, 0,1023,0,100);
+  //Leemos nivel de luz y normalizamos
+  int luz_analog = analogRead(LDR_PIN);
+  int luz_normalizada = map(luz_analog, 0,1023,0,100);
 
   //Lógica botón: Si se pulsa el botón, cambiar pantalla
   if (digitalRead(BUTTON_PIN) == LOW) {
