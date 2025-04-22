@@ -21,7 +21,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 
 ## 🛠️ Montaje
 
-### Diagrama de conexiones (resumen)
+### Diagrama de conexiones
 
 | Componente | Pin Arduino |
 |------------|-------------|
