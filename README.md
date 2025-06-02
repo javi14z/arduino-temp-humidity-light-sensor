@@ -37,8 +37,11 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 | POT2       | A1          |
 | Botón      | D4 (con `INPUT_PULLUP`) |
 | LCD I2C    | SDA: A4, SCL: A5 |
-| Servomotor | A9 |
-| 74hc595    | 
+| Servomotor | D9          |
+|74hc595 - LATCH |	D8    |
+|74hc595 - CLOCK |	D12   |
+|74hc595 - DATA  |	D11      |
+|PWM para LED    |	D5       |
 
 
 > ⚠️ El LDR se conecta formando un divisor de tensión con una resistencia de 10kΩ a GND.
