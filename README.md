@@ -1,8 +1,10 @@
 # Arduino: Sensor de Temperatura, Humedad, Luz, Calidad del Aire y Velocidad del Viento
 
-Actividad 1 de la asignatura Equipos e Instrumentación del Máster Universitario en Ingeniería de Telecomunicación de la UNIR.
+Autores: Javier Núñez Fuente, Damian Pitarch Bono, Lorena Martinez de Guereñu Saez de Jauregui
+
+Actividad 2 de la asignatura Equipos e Instrumentación del Máster Universitario en Ingeniería de Telecomunicación de la UNIR.
 El proyecto consiste en el desarrollo de una estación de monitoreo ambiental básica utilizando una placa Keyestudio Plus.
-Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, nivel de luz ambiental, calidad del aire y velocidad del viento, permitiendo cambiar la información visualizada mediante un botón físico.
+Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, nivel de luz ambiental, calidad del aire y velocidad del viento, permitiendo cambiar la información visualizada mediante un botón físico. Además, se añade un servomotor para controlar la apertura de una compuerta según la temperatura, y una escalera de luminancia con LEDs que varía según el nivel de luz.
 
 ---
 
@@ -17,6 +19,9 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 - 2 potenciómetros
 - Protoboard y cables de conexión
 - Servomotor
+- 74hc595
+- 8 Resistencias de 200kΩ
+- 8 leds
 
 ---
 
@@ -33,6 +38,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 | Botón      | D4 (con `INPUT_PULLUP`) |
 | LCD I2C    | SDA: A4, SCL: A5 |
 | Servomotor | A9 |
+| 74hc595    | 
 
 
 > ⚠️ El LDR se conecta formando un divisor de tensión con una resistencia de 10kΩ a GND.
@@ -41,11 +47,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 
 A continuación, se muestra el diagrama de conexiones de esta práctica:
 
-![Diagrama de conexiones](img/diagram.png)
-
-A continuación, se muestra el diagrama de conexiones de esta práctica con las mejoras de la actividad 2 incluidas:
-
-![Diagrama de conexiones 2]<img width="382" alt="diagrama de conexiones actividad 2" src="https://github.com/user-attachments/assets/3c31a3c8-d40d-4864-a839-e78fe061486d" />
+![Diagrama de conexiones](https://github.com/user-attachments/assets/3c31a3c8-d40d-4864-a839-e78fe061486d)
 
 ---
 
@@ -67,8 +69,6 @@ Mejoras actividad 2:
 
 ### Simulación en Wokwi
 
-Haz clic en el siguiente [enlace](https://wokwi.com/projects/430940779169492993) para acceder a la simulación del circuito en la plataforma Wokwi.
-
 Haz clic en el siguiente [enlace](https://wokwi.com/projects/432589094518943745) para acceder a la simulación del circuito con las mejoras de la actividad 2 incluidas en la plataforma Wokwi.
    
 ---
@@ -89,5 +89,4 @@ Puedes ver una demostración del funcionamiento del circuito físico haciendo cl
 ## 💾 Código fuente
 
 El código utilizado en esta práctica se encuentra en la carpeta [code](/code/code.ino).  
-El código utilizado en esta práctica con las mejoras de la actividad 2 se encuentra en la carpeta [code]((/code/code2.ino))
 El archivo `.ino` está comentado para facilitar su comprensión.
