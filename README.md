@@ -41,12 +41,13 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 |74hc595 - LATCH |	LATCH: D8, CLOCK: D12, DATA: D11    |
 
 > ⚠️ El LDR se conecta formando un divisor de tensión con una resistencia de 10kΩ a GND.
+> ⚠️ Los LEDs se conectan a las patillas Q0–Q7 del 74HC595 y a GND, cada uno con una resistencia en serie.
 
 ### Esquema visual
 
 A continuación, se muestra el diagrama de conexiones de esta práctica:
 
-![Diagrama de conexiones](https://github.com/user-attachments/assets/3c31a3c8-d40d-4864-a839-e78fe061486d)
+![Diagrama de conexiones](/img/diagram.png)
 
 ---
 
