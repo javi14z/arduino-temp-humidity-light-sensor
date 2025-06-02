@@ -48,7 +48,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 
 A continuación, se muestra el diagrama de conexiones de esta práctica:
 
-![Diagrama de conexiones](/img/diagram.)
+![Diagrama de conexiones](img/diagram.png)
 
 ---
 
