@@ -43,6 +43,10 @@ A continuación, se muestra el diagrama de conexiones de esta práctica:
 
 ![Diagrama de conexiones](img/diagram.png)
 
+A continuación, se muestra el diagrama de conexiones de esta práctica con las mejoras de la actividad 2 incluidas:
+
+![Diagrama de conexiones 2]<img width="382" alt="diagrama de conexiones actividad 2" src="https://github.com/user-attachments/assets/3c31a3c8-d40d-4864-a839-e78fe061486d" />
+
 ---
 
 ## 📋 Funcionamiento
@@ -58,13 +62,14 @@ Mejoras actividad 2:
 - Optimización para evitar parpadeo (solo se actualiza si alguna variable mostrada en la pantalla cambia).
 - Relación entre voltaje del LDR y luxes ajustada según las fórmulas vistas en clase. 
 - Añadido un servomotor que abre/cierra automáticamente una compuerta según el rango de temperatura (10–25 °C).
-
+- Añadido una escalera de luminancia de LEDs, dependiente del nivel de luminancia detectado por el sensor LDR. Cuanto mayor nivel de luminancia sea detectado, menor número de la escalera de LEDs se encenderá y por el contrario cuanto mas bajo sea el nivel de luminancia detectada mayor número de LEDs se encenderan. 
 ---
 
 ### Simulación en Wokwi
 
 Haz clic en el siguiente [enlace](https://wokwi.com/projects/430940779169492993) para acceder a la simulación del circuito en la plataforma Wokwi.
 
+Haz clic en el siguiente [enlace](https://wokwi.com/projects/432589094518943745) para acceder a la simulación del circuito con las mejoras de la actividad 2 incluidas en la plataforma Wokwi.
    
 ---
 
@@ -84,4 +89,5 @@ Puedes ver una demostración del funcionamiento del circuito físico haciendo cl
 ## 💾 Código fuente
 
 El código utilizado en esta práctica se encuentra en la carpeta [code](/code/code.ino).  
+El código utilizado en esta práctica con las mejoras de la actividad 2 se encuentra en la carpeta [code]((/code/code2.ino))
 El archivo `.ino` está comentado para facilitar su comprensión.
