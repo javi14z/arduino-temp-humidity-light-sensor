@@ -38,9 +38,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 | Botón      | D4 (con `INPUT_PULLUP`) |
 | LCD I2C    | SDA: A4, SCL: A5 |
 | Servomotor | D9          |
-|74hc595 - LATCH |	D8    |
-|74hc595 - CLOCK |	D12   |
-|74hc595 - DATA  |	D11      |
+|74hc595 - LATCH |	LATCH: D8, CLOCK: D12, DATA: D11    |
 |PWM para LED    |	D5       |
 
 
