@@ -20,7 +20,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 - Protoboard y cables de conexión
 - Servomotor
 - 74hc595
-- 8 Resistencias de 200kΩ
+- 8 Resistencias de 220 Ω
 - 8 leds
 
 ---
