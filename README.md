@@ -39,8 +39,6 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 | LCD I2C    | SDA: A4, SCL: A5 |
 | Servomotor | D9          |
 |74hc595 - LATCH |	LATCH: D8, CLOCK: D12, DATA: D11    |
-|PWM para LED    |	D5       |
-
 
 > ⚠️ El LDR se conecta formando un divisor de tensión con una resistencia de 10kΩ a GND.
 
@@ -70,7 +68,7 @@ Mejoras actividad 2:
 
 ### Simulación en Wokwi
 
-Haz clic en el siguiente [enlace](https://wokwi.com/projects/432589094518943745) para acceder a la simulación del circuito con las mejoras de la actividad 2 incluidas en la plataforma Wokwi.
+Haz clic en el siguiente [enlace](https://wokwi.com/projects/432677157384517633) para acceder a la simulación del circuito con las mejoras de la actividad 2 incluidas en la plataforma Wokwi.
    
 ---
 
