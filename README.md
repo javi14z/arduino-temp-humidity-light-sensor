@@ -1,6 +1,6 @@
 # Arduino: Sensor de Temperatura, Humedad, Luz, Calidad del Aire y Velocidad del Viento
 
-Autores: Javier Núñez Fuente, Damian Pitarch Bono, Lorena Martinez de Guereñu Saez de Jauregui
+**Autores: Javier Núñez Fuente, Damian Pitarch Bono, Lorena Martinez de Guereñu Saez de Jauregui**
 
 Actividad 2 de la asignatura Equipos e Instrumentación del Máster Universitario en Ingeniería de Telecomunicación de la UNIR.
 El proyecto consiste en el desarrollo de una estación de monitoreo ambiental básica utilizando una placa Keyestudio Plus.
