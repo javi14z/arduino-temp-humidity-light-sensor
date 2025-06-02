@@ -41,6 +41,7 @@ Utiliza una pantalla LCD con interfaz I2C para mostrar la temperatura, humedad, 
 |74hc595 - LATCH |	LATCH: D8, CLOCK: D12, DATA: D11    |
 
 > ⚠️ El LDR se conecta formando un divisor de tensión con una resistencia de 10kΩ a GND.
+>
 > ⚠️ Los LEDs se conectan a las patillas Q0–Q7 del 74HC595 y a GND, cada uno con una resistencia en serie.
 
 ### Esquema visual
@@ -81,7 +82,7 @@ Puedes ver una demostración del funcionamiento del circuito físico haciendo cl
 >
 >- Potenciómetro 1 (A0): Simula sensor de calidad del aire
 >- Potenciómetro 2 (A1): Simula sensor de velocidad del viento
-
+>
 > ⚠️ No se han añadido las mejoras de la actividad 2 en el vídeo, solo en la simulación de Wokwi.
 
 ---
